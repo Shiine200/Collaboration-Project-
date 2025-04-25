@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+.fst-title{
+    text-align: left;
+    color: rgb(226, 35, 35);
+    margin-top: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.bkn img{
+    margin-top: 40px;
+    border-radius: 4%;
+
+}
+  .title-hotel{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 60px;
+  }
+.grid-hotel{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.room img{
+    width: 100%;
+    border-radius: 4%;
+}
+
+.room{
+    box-shadow: 0 4px 8px 1px rgb(15, 15, 15);
+}
+
+.room p{
+    font-weight: 300;
+}
+
+ .sprice1 {
+    font-weight: 800;
+}
+
+  .sprice2{
+    font-weight: 500;
+}   
+
+    .sprice3{
+        font-weight: 800;
+        background-color: rgb(199, 205, 205);
+    }
+
+    .btn{
+        padding: 5px 5px;
+        background-color: rgb(236, 209, 175);
+        border: 2px solid ;
+        border-radius: 5%;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+
+
+    .footer{
+        background-color:rgb(5, 5, 5); 
+        margin-top: 4px;
+       width:100%;
+      
+   }
+   
+   
+       .grid-footer{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           gap: 20px;
+           justify-content: space-between;
+       }
+   .title-time{
+       color: white;
+       margin-top: 20px;
+       margin-bottom: 10px;
+       margin-right: 10px;
+       padding-inline: 10px;
+     
+   }
+   
+   .time li{
+       list-style: none;
+       color: rgb(232, 209, 209);
+       margin-right: 10px;
+       padding-block: 10px;
+       padding-inline: 10px;
+       
+   
+   }
+   .title-location{
+       color: white;
+       margin-top: 20px;
+       margin-bottom: 10px;
+   }
+   
+   
+   .location li{
+       list-style: none;
+       color: rgb(232, 209, 209);
+       padding-block: 10px;
+   }
+   .contact-title{
+       margin-top: 20px;
+       margin-bottom: 10px;
+       color: white;
+   }
+   .contact li {
+       list-style:  none;
+       color: rgb(232, 209, 209);
+       padding-block: 10px;
+   }
